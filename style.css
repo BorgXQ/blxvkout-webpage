@@ -5,7 +5,7 @@
 }
 
 .header {
-    min-width: 953px;
+    min-width: 600px;
     height: 56px;
     display: flex;
     flex: 0 0 auto;
