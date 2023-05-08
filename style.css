@@ -1,0 +1,70 @@
+.body {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.header {
+    min-width: 953px;
+    height: 56px;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background-color: #121212;
+    border-bottom: 1px solid #363636;
+    margin: -12px -12px 0 -12px;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+    padding: 10px 30px 6px 30px;
+}
+
+.btn {
+  appearance: none;
+  background-color: transparent;
+  border-width: 0;
+  box-sizing: border-box;
+  height: 56px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 1em 1.5em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background-color: #222222;
+}
+
+.btnn:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 0px 30px;
+  }
+}
