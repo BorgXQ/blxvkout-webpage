@@ -1,4 +1,5 @@
 body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -79,6 +80,6 @@ body {
   object-fit: cover;
   object-position: 0 32%;
   height: 647px; 
-  width: auto;
+  width: 100%;
   margin: 0px;
 }
