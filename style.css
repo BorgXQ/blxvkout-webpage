@@ -1,4 +1,6 @@
-.body {
+body {
+    display: flex;
+    flex-direction: column;
     padding: 0px;
     border: 0px;
     margin: 0px;
@@ -14,13 +16,13 @@
     color: #ffffff;
     background-color: #121212;
     border-bottom: 1px solid #363636;
-    margin: -12px -12px 0 -12px;
+    margin: 0px;
 }
 
 .logo {
     height: 40px;
     width: auto;
-    padding: 10px 30px 6px 30px;
+    padding: 8px 30px 8px 30px;
 }
 
 .btn {
@@ -31,8 +33,7 @@
   height: 56px;
   color: #ffffff;
   cursor: pointer;
-  display: inline-block;
-  font-size: 14px;
+  display: inline-block;6
   font-weight: 500;
   letter-spacing: 0;
   line-height: 1em;
@@ -57,7 +58,7 @@
   background-color: #222222;
 }
 
-.btnn:focus {
+.btn:focus {
   box-shadow: none;
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -67,4 +68,17 @@
   .btn {
     padding: 0px 30px;
   }
+}
+
+.insta {
+  height: 20px;
+  width: auto; 
+}
+
+.mainPic {
+  object-fit: cover;
+  object-position: 0 32%;
+  height: 647px; 
+  width: auto;
+  margin: 0px;
 }
