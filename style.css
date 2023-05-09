@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
   body {
-      min-height: 100vh;
+      height: 100vh;
       display: flex;
       flex-direction: column;
       padding: 0px;
@@ -9,6 +9,7 @@
   }
 
   .header {
+      min-width: 970px;
       height: 56px;
       display: flex;
       flex: 0 0 auto;
