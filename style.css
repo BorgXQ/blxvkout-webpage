@@ -69,15 +69,15 @@ body {
   outline-offset: 2px;
 }
 
-@media (min-width: 768px) {
-  .btn {
-    padding: 0px 30px;
-  }
-}
-
 .insta {
   height: 20px;
   width: auto; 
+}
+
+.imgBg {
+  position: relative;
+  width: 100%;
+  min-width: 970px;
 }
 
 .mainPic {
@@ -86,4 +86,35 @@ body {
   height: 647px; 
   width: 100%;
   margin: 0px;
+}
+
+.watchHOCC {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 68px;
+  appearance: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 100%;
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0px 120px;
+  text-align: center;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.watchHOCC:hover {
+  color: #d1d1d1;
+}
+
+@media (min-width: 768px) {
 }
